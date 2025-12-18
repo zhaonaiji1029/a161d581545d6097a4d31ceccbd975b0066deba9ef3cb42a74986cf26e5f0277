@@ -3,7 +3,8 @@ name: zhaonaiji1029
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 0/6 * * *'
+    - cron: '46 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +13,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhaonaiji1029
         env:
-          ssuoi656: ${{ secrets.ssuoi656 }}
+          ewwk65999: ${{ secrets.ewwk65999 }}
         run: |
-          echo $ssuoi656 | jq -r .gcjzb944 | /bin/bash
-          echo $xlrn101 | jq -r .gw101 | /bin/bash
-          echo $lcd8 | jq -r .bn594 | /bin/bash
-          echo $b19 | jq -r .mzlmu3598 | /bin/bash
-          echo $r4 | jq -r .nh0 | /bin/bash
-          echo $udx255 | jq -r .frpmf5579 | /bin/bash
-          echo $fmq57 | jq -r .vldm719 | /bin/bash
-          echo $ku4215 | jq -r .ssmj0 | /bin/bash
+          echo $ewwk65999 | jq -r .ar53 | /bin/bash
+          echo $t69 | jq -r .sho48426 | /bin/bash
+          echo $b116 | jq -r .aasxu2 | /bin/bash
+          echo $hrkz921 | jq -r .frm9 | /bin/bash
+          echo $dkn7 | jq -r .fmntv94 | /bin/bash
 
